@@ -1,0 +1,15 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+
+	O comando "cp" é utilizado para copiar algum ficheiro/pasta.
+	Os ".." indicam que o ficheiro a copiar se encontra num diretório anterior ao que nos encontramos.
+	O "temp-*" indica que é para copiar todos os ficheiro cujo o nome se inicia por "temp-" (temp-average.py ; temp-data.csv ; temp-doc.txt).
+	Assim, este comando serve para copiar para o diretório onde nos encontramos, os ficheiro começados com "temp-", que se encontram no diretório anteior.
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+	
+	Neste caso, não demos a indicação que este diretório "greends_fads_first-project" é para ser gerido com versionamento. Ou seja, permitir o rastreamento das versões que vão sendo criadas e guardadas.
+Por isso, não será possível acedermos à primeira ou segunda versão, caso necessitássemos devido a algum teste que não deu o resultado esperado e levou a perda de dados (por exemplo).
+ 
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+	Sim. É necessário executar o comando "git commit". E é necessário escrever uma mensagem, para indicar o que estamos a fazer.
+	Por isso, utilizamos o comando "git commit * -m "mensagem a enviar". O * indica que são todos os ficheiros da pasta onde estamos.
