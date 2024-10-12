@@ -1,0 +1,89 @@
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
+$ pwd
+/c/Users
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
+$ cd João Faia Colarinha
+bash: cd: too many arguments
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
+$ cd greends-fads-my-first-project
+bash: cd: greends-fads-my-first-project: No such file or directory
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
+$ cd greends-fads-first-project
+bash: cd: greends-fads-first-project: No such file or directory
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
+$ ls
+ Administrador/   Default/         Default.migrated/       Public/
+'All Users'@     'Default User'@  'João Faia Colarinha'/   desktop.ini
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
+$ cd greends-fads-first-project
+bash: cd: greends-fads-first-project: No such file or directory
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
+$ pwd
+/c/Users
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
+$ cd 'João Faia Colarinha'
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~ (master)
+$ pwd
+/c/Users/João Faia Colarinha
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Definições Locais'@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Menu Iniciar'@
+ MicrosoftEdgeBackups/
+ Modelos@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'Os Meus Documentos'@
+ Pictures/
+ PrintHood@
+ README.md
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+ example.txt
+ greends-fads-first-project/
+ my-first-project/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ quote_with_typos.md.
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~ (master)
+$ cd greends-fads-first-project/
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~/greends-fads-first-project (main)
+$ pwd
+/c/Users/João Faia Colarinha/greends-fads-first-project
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~/greends-fads-first-project (main)
+$ cp ../temp-* .
+cp: cannot stat '../temp-*': No such file or directory
+
