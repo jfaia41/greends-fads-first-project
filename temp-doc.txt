@@ -1,3 +1,12 @@
+
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+
+O comando serve para copiar os ficheiros cuja designação começa com "temp-" e se encontram no directório anterior.
+
+Contudo, eu não consigo fazer. Provavelmente porque tenho problemas com o meu User name.
+
+Mensagens de erro:
+
 João Faia Colarinha@DESKTOP-JDITRNT MINGW64 /c/Users
 $ pwd
 /c/Users
@@ -87,3 +96,35 @@ João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~/greends-fads-first-project (main)
 $ cp ../temp-* .
 cp: cannot stat '../temp-*': No such file or directory
 
+5.2. Can you explain why, in this case, we did not have to do git init?
+
+Quando coloanmos um repositório, é criado automaticamente um diretório .git na pasta clonada.
+Por isso, não é necessário correr o git init, porque já iniciámos o git.
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+
+Sim.
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~/greends-fads-first-pro
+$ pwd
+/c/Users/João Faia Colarinha/greends-fads-first-project
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~/greends-fads-first-pro
+$ git commit * -m "initial commit"
+[main 3ab15ea] initial commit
+ 3 files changed, 89 insertions(+)
+ create mode 100644 temp-average.py
+ create mode 100644 temp-data.csv
+ create mode 100644 temp-doc.txt
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~/greends-fads-first-prot (main)
+$ pwd
+/c/Users/João Faia Colarinha/greends-fads-first-project
+
+João Faia Colarinha@DESKTOP-JDITRNT MINGW64 ~/greends-fads-first-prot (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
